@@ -13,7 +13,7 @@ function Navbar() {
                         <h1>Explore</h1>
                     </Link>
 
-                    <select class="form-select" aria-label="Default select example">
+                    {/* <select class="form-select" aria-label="Default select example">
                         <option defaultValue>Filter Countries by Population</option>
            
                         <option value="1">Population Under 10M</option>
@@ -21,7 +21,7 @@ function Navbar() {
                         <option value="2">Population between 10M - 50M</option>
                         <option value="3">Population between 50M - 100M</option>
                         <option value="3">Population above 100M</option>
-                    </select>
+                    </select> */}
                 </div>
             </nav>
         </div>
