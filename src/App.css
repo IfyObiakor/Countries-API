@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h6 {
+  font-size: 15px;
+}
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+.header {
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 10px 0;
+  background: rgba(14, 29, 52, 0.9);
+}
+.navbar-brand h1 {
+  font-size: 35px;
+  font-weight: 700;
+  color: #fff;
+}
+.navbar_links {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form-select {
+  width: 40vh;
+  margin-left: auto;
+}
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+  background-color: #0e1d34;
+  color: white;
+  position: relative;
+  bottom: 100%;
+  width: 100%;
+
+}
+.footer p {
+  font-size: 14px;
+}
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+}
+.footer-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# Media Query
+--------------------------------------------------------------*/
+
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+
+ 
+}
+
+
+@media only screen and (max-width: 480px) {
+
+
+  .footer p{
+    font-size: 12px;
+  }
+  .footer-links a {
+    font-size: 15px;
+  }
+
+}
